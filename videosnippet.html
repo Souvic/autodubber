@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video with Audio</title>
+  <style>
+    #videoContainer {
+      position: relative;
+      width: 400px;
+      height: 300px;
+    }
+
+    #videoPlayer,
+    #audioPlayer {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    #audioPlayer {
+        display:none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+    }
+    #videoPlayer::-webkit-media-controls-mute-button {display: none;}
+  </style>
+</head>
+<body>
+  <div id="videoContainer">
+    <video id="videoPlayer" src="./assets/video3.mp4" muted controls></video>
+    
+  </div>
+  <audio id="audioPlayer" src="./assets/audio3.mp3" controls></audio>
+
+  <script>
+    var videoPlayer = document.getElementById('videoPlayer');
+    var audioPlayer = document.getElementById('audioPlayer');
+
+    audioPlayer.style.width = videoPlayer.offsetWidth + 'px';
+
+    audioPlayer.addEventListener('play', function () {
+      videoPlayer.play();
+    });
+
+    audioPlayer.addEventListener('pause', function () {
+      videoPlayer.pause();
+    });
+
+    audioPlayer.addEventListener('seeking', function () {
+      videoPlayer.currentTime = audioPlayer.currentTime;
+    });
+
+    audioPlayer.addEventListener('seeked', function () {
+      videoPlayer.currentTime = audioPlayer.currentTime;
+    });
+
+    videoPlayer.addEventListener('play', function () {
+      audioPlayer.play();
+    });
+
+    videoPlayer.addEventListener('pause', function () {
+      audioPlayer.pause();
+    });
+
+    videoPlayer.addEventListener('seeking', function () {
+      audioPlayer.currentTime = videoPlayer.currentTime;
+    });
+
+    videoPlayer.addEventListener('seeked', function () {
+      audioPlayer.currentTime = videoPlayer.currentTime;
+    });
+  </script>
+</body>
+</html>

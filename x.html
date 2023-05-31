@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Media Page</title>
+  <style>
+    /* Styles for the sidebar */
+    .sidebar {
+      width: 200px;
+      height: 100vh;
+      background-color: #f1f1f1;
+      float: left;
+    }
+    
+    .sidebar ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 20px;
+    }
+    
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+    
+    .content {
+      margin-left: 220px;
+      padding: 20px;
+    }
+    
+    /* Styles for the processing animation */
+    .processing {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .processing .loader {
+      border: 8px solid #f3f3f3;
+      border-top: 8px solid #3498db;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <ul>
+      <li><a href="#" onclick="showVideoPanel()">Video</a></li>
+      <li><a href="#" onclick="showAudioPanel()">Audio</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    <div id="videoPanel" style="display: none;">
+      <h2>Upload Video</h2>
+      <input type="file" id="videoFile" accept="video/*">
+      <br><br>
+      <input type="text" id="videoText" placeholder="Enter your text">
+      <br><br>
+      <button onclick="uploadVideo()">Submit</button>
+      <div id="processingAnimation" style="display: none;">
+        <div class="processing">
+          <div class="loader"></div>
+          <p>Processing...</p>
+        </div>
+      </div>
+      <br><br>
+      <h2>Output</h2>
+      <div id="outputPanel"></div>
+    </div>
+    <div id="audioPanel" style="display: none;">
+      <h2>Upload Audio</h2>
+      <input type="file" id="audioFile" accept="audio/*">
+      <br><br>
+      <input type="text" id="audioText" placeholder="Enter your text">
+      <br><br>
+      <button onclick="uploadAudio()">Submit</button>
+      <div id="processingAnimation" style="display: none;">
+        <div class="processing">
+          <div class="loader"></div>
+          <p>Processing...</p>
+        </div>
+      </div>
+      <br><br>
+      <h2>Output</h2>
+      <div id="outputPanel"></div>
+    </div>
+  </div>
+
+  <script>
+    function showVideoPanel() {
+      document.getElementById("videoPanel").style.display = "block";
+      document.getElementById("audioPanel").style.display = "none";
+    }
+
+    function showAudioPanel() {
+      document.getElementById("videoPanel").style.display = "none";
+      document.getElementById("audioPanel").style.display = "block";
+    }
+
+    function uploadVideo() {
+      var videoFile = document.getElementById("videoFile").files[0];
+      var videoText = document.getElementById("videoText").value;
+      var formData = new FormData();
+      formData.append("file", videoFile);
+      formData.append("text", videoText);
+
+      var processingAnimation = document.getElementById("processingAnimation");
+      processingAnimation.style.display = "block";
+
+      // Simulating processing delay
+      setTimeout(function() {
+        processingAnimation.style.display = "none";
+        document.getElementById("outputPanel").innerHTML = "<video src='path_to_server_video' controls></video>";
+      }, 2000);
+    }
+
+    function uploadAudio() {
+      var audioFile = document.getElementById("audioFile").files[0];
+      var audioText = document.getElementById("audioText").value;
+      var formData = new FormData();
+      formData.append("file", audioFile);
+      formData.append("text", audioText);
+
+      var processingAnimation = document.getElementById("processingAnimation");
+      processingAnimation.style.display = "block";
+
+      // Simulating processing delay
+      setTimeout(function() {
+        processingAnimation.style.display = "none";
+        document.getElementById("outputPanel").innerHTML = "<audio src='path_to_server_audio' controls></audio>";
+      }, 2000);
+    }
+  </script>
+</body>
+</html>

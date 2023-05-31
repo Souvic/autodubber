@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload Media Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    .container {
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 200px;
+      padding: 20px;
+      background-color: #f8f9fa;
+    }
+
+    .branding {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="branding">
+      <img src="logo.png" alt="Logo" width="80">
+    </div>
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link active" id="video-tab" data-bs-toggle="pill" href="#videoPanel">Video</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="audio-tab" data-bs-toggle="pill" href="#audioPanel">Audio</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <h2>Upload Media</h2>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="videoPanel">
+        <h3>Upload Video</h3>
+        <div class="mb-3">
+          <label for="videoFile" class="form-label">Upload Video</label>
+          <input type="file" class="form-control" id="videoFile" accept="video/*">
+        </div>
+        <div class="mb-3">
+          <label for="videoText" class="form-label">Enter your text</label>
+          <input type="text" class="form-control" id="videoText" placeholder="Enter your text">
+        </div>
+        <button class="btn btn-primary" onclick="uploadVideo()">Submit</button>
+        <div id="processingAnimation" style="display: none;">
+          <div class="d-flex align-items-center">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Processing...</span>
+            </div>
+            <p class="ms-2">Processing...</p>
+          </div>
+        </div>
+        <div id="outputPanel"></div>
+      </div>
+      <div class="tab-pane fade" id="audioPanel">
+        <h3>Upload Audio</h3>
+        <div class="mb-3">
+          <label for="audioFile" class="form-label">Upload Audio</label>
+          <input type="file" class="form-control" id="audioFile" accept="audio/*">
+        </div>
+        <div class="mb-3">
+          <label for="audioText" class="form-label">Enter your text</label>
+          <input type="text" class="form-control" id="audioText" placeholder="Enter your text">
+        </div>
+        <button class="btn btn-primary" onclick="uploadAudio()">Submit</button>
+        <div id="processingAnimation" style="display: none;">
+          <div class="d-flex align-items-center">
+            <div class="spinner-border" role="status">
+              <span class="visually-hidden">Processing...</span>
+            </div>
+            <p class="ms-2">Processing...</p>
+          </div>
+        </div>
+        <div id="outputPanel"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <script>
+    function uploadVideo() {
+      var videoFile = document.getElementById("videoFile").files[0];
+      var videoText = document.getElementById("videoText").value;
+      var formData = new FormData();
+      formData.append("file", videoFile);
+      formData.append("text", videoText);
+
+      var processingAnimation = document.getElementById("processingAnimation");
+      processingAnimation.style.display = "block";
+
+      // Simulating processing delay
+      setTimeout(function() {
+        processingAnimation.style.display = "none";
+        document.getElementById("outputPanel").innerHTML = "<video src='path_to_server_video' controls></video>";
+      }, 2000);
+    }
+
+    function uploadAudio() {
+      var audioFile = document.getElementById("audioFile").files[0];
+      var audioText = document.getElementById("audioText").value;
+      var formData = new FormData();
+      formData.append("file", audioFile);
+      formData.append("text", audioText);
+
+      var processingAnimation = document.getElementById("processingAnimation");
+      processingAnimation.style.display = "block";
+
+      // Simulating processing delay
+      setTimeout(function() {
+        processingAnimation.style.display = "none";
+        document.getElementById("outputPanel").innerHTML = "<audio src='path_to_server_audio' controls></audio>";
+      }, 2000);
+    }
+  </script>
+</body>
+</html>
