@@ -141,7 +141,6 @@ function starttrial() {
         $("#videoPlayer_1").get(0).currentTime = 0;
         $("#audioPlayer_1").get(0).currentTime = 0;
         $("#videoPlayer_1").get(0).play()
-        $("#audioPlayer_1").get(0).play()
         $("mailus").show();
         $('#button-addon2').attr("disabled", false);
         typeIt();
