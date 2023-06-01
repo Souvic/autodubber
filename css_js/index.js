@@ -101,12 +101,14 @@ function isEmail(email) {
 }
 
 function starttrial() {
+  $("#audioPlayer_1").get(0).pause();
+  $("#videoPlayer_1").get(0).pause();
   
   var emailinput = $("#trialemail").val();
   var nameinput = $("#actionarea").val();
   if (isEmail(emailinput) &&  nameinput!="") {
     $("#videoPlayer_1").hide()
-  $("#videoPlayer_2").show()
+    $("#videoPlayer_2").show()
 
   $("#videoPlayer_2").get(0).currentTime = 0;
   $("#videoPlayer_2").get(0).play()
