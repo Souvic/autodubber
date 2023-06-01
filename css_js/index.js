@@ -128,7 +128,8 @@ function starttrial() {
         //var audioURL = URL.createObjectURL(new Blob(binaryData, {type: "application/zip"}));
         
         if($(teletype).prop("hidden")){
-        $("#videoPlayer_1").get(0).load()}
+        $("#videoPlayer_1").get(0).load()}else{
+        $("#videoPlayer_1").get(0).currentTime = 0;}
         //var audioBlob = new Blob([response], { type: 'audio/mp3' });
         $("#audioPlayer_1").get(0).src = response.audio_path;
 
@@ -140,8 +141,6 @@ function starttrial() {
         $("#videoPlayer_2").get(0).pause()
         $("#videoPlayer_2").hide()
         $("#videoPlayer_1").show()
-        $("#videoPlayer_1").get(0).currentTime = 0;
-        $("#audioPlayer_1").get(0).currentTime = 0;
         $("#videoPlayer_1").get(0).play()
         $("mailus").show();
         $('#button-addon2').attr("disabled", false);
