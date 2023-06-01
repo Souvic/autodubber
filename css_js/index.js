@@ -101,19 +101,20 @@ function isEmail(email) {
 }
 
 function starttrial() {
-  $("#videoPlayer_1").hide()
-  $("#videoPlayer_2").show()
-  $("#videoPlayer_2").get(0).play()
-  $("#emailinvalidtooltip").hide();
+  
   var emailinput = $("#trialemail").val();
   var nameinput = $("#actionarea").val();
   if (isEmail(emailinput) &&  nameinput!="") {
+    $("#videoPlayer_1").hide()
+  $("#videoPlayer_2").show()
+  $("#videoPlayer_2").get(0).play()
+  $("#emailinvalidtooltip").hide();
     var encoded = encodeURIComponent(emailinput);
     $('#button-addon2').attr("disabled", true);
     $.ajax({
       type: 'POST',
-      url: "http://ec2-3-94-119-11.compute-1.amazonaws.com:8001/audio/",
-      data: JSON.stringify({email: emailinput,name:nameinput}),
+      url: "https://autodubberapi.neurals.ai/audio/",
+      data: JSON.stringify({email: emailinput,name: nameinput}),
       contentType: "application/json; charset=utf-8",
       responseType: 'blob',
       success: function(response) {
@@ -130,8 +131,8 @@ function starttrial() {
 
         $("#audioPlayer_1").get(0).load();
         $("#videoPlayer_1").get(0).addEventListener('loadeddata', function() {
-          $("#audioPlayer_1").get(0).addEventListener('loadeddata', function() {
-            $("#videoPlayer_1").get(0).controls = true;
+        $("#audioPlayer_1").get(0).addEventListener('loadeddata', function() {
+        $("#videoPlayer_1").get(0).controls = true;
         $("#videoPlayer_2").get(0).pause()
         $("#videoPlayer_2").hide()
         $("#videoPlayer_1").show()
@@ -145,6 +146,7 @@ function starttrial() {
         
       },
       error: function(xhr, status, error) {
+        $('#button-addon2').attr("disabled", false);
         console.log('Error:', error);
       }
     });
