@@ -107,6 +107,8 @@ function starttrial() {
   if (isEmail(emailinput) &&  nameinput!="") {
     $("#videoPlayer_1").hide()
   $("#videoPlayer_2").show()
+
+  $("#videoPlayer_2").get(0).currentTime = 0;
   $("#videoPlayer_2").get(0).play()
   $("#emailinvalidtooltip").hide();
     var encoded = encodeURIComponent(emailinput);
@@ -123,8 +125,9 @@ function starttrial() {
         //binaryData.push(response);
         //var audioURL = URL.createObjectURL(new Blob(binaryData, {type: "application/zip"}));
         
-        
-        $("#videoPlayer_1").get(0).load()
+        if($(teletype).prop("hidden")){
+        $("#videoPlayer_1").get(0).load()}
+        $("#videoPlayer_1").get(0).currentTime = 0;
         //var audioBlob = new Blob([response], { type: 'audio/mp3' });
         $("#audioPlayer_1").get(0).src = response.audio_path;
 
@@ -198,6 +201,7 @@ $("#textchanger").teletype({
 let cursor = "<span>|</span>",
 telecopy = teletype.innerHTML;
 function typeIt() {
+  if($(teletype).prop("hidden")){
   let counter = 0;
   teletype.innerHTML = cursor;
   teletype.removeAttribute("hidden");
@@ -208,6 +212,7 @@ function typeIt() {
           clearInterval(i);
       }
   }, 100);
+}
 }
 
 
