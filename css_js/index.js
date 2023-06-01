@@ -140,6 +140,7 @@ function starttrial() {
         $("#videoPlayer_2").hide()
         $("#videoPlayer_1").show()
         $("#videoPlayer_1").get(0).play()
+        $("#audioPlayer_1").get(0).play()
         $("mailus").show();
         $('#button-addon2').attr("disabled", false);
         typeIt();
