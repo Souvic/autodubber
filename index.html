@@ -252,7 +252,7 @@
                 
             </div>
     </div>
-    <audio id="audioPlayer_1" preload="auto" style="display:none;" src="" controls loop></audio>
+    <audio id="audioPlayer_1" preload="auto" style="display:none;" src="" loop></audio>
 </section>
 
 
@@ -679,9 +679,7 @@
       audioPlayer.pause();
     });
 
-    videoPlayer.addEventListener('seeking', function () {
-      audioPlayer.currentTime = videoPlayer.currentTime;
-    });
+    
 
     videoPlayer.addEventListener('seeked', function () {
       audioPlayer.currentTime = videoPlayer.currentTime;

@@ -11503,3 +11503,4 @@ audio { width: 100%; display: block; }
 }
 
 #videoPlayer_1::-webkit-media-controls-mute-button {display: none;}
+#videoPlayer_1::-webkit-media-controls-timeline {display: none;}
