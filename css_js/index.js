@@ -79,6 +79,11 @@ function copytoclipboard(element, inputselector, amplitudemsg) {
   );
 }
 */
+function checkname(x){
+  return(x.length<11 && x.length>1) 
+
+}
+
 function trynow() {
   var amplitudeEvent = "Try now button clicked";
   var eventProperties = {};
@@ -104,9 +109,11 @@ function starttrial() {
   $("#audioPlayer_1").get(0).pause();
   $("#videoPlayer_1").get(0).pause();
   
-  var emailinput = $("#trialemail").val();
-  var nameinput = $("#actionarea").val();
-  if (isEmail(emailinput) &&  nameinput!="") {
+  var emailinput = $("#trialemail").val().trim();
+  var nameinput = $("#actionarea").val().trim();
+  if(isEmail(emailinput)){$("#emailinvalidtooltip").hide();}
+  if(checkname(nameinput)){$("#nameinvalidtooltip").hide();}
+  if (isEmail(emailinput) &&  checkname(nameinput)) {
     $("#videoPlayer_1").hide()
     $("#videoPlayer_2").show()
 
@@ -158,7 +165,7 @@ function starttrial() {
     //window.location = "https://dashboard.pinggy.io/starttrial?email=" + encoded;
   } else {
     if(! isEmail(emailinput)){$("#emailinvalidtooltip").show();}
-    else{$("#nameinvalidtooltip").show();}
+    if( ! checkname(nameinput)){$("#nameinvalidtooltip").show();}
   }
 }
 
