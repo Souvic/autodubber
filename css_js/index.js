@@ -169,6 +169,27 @@ function starttrial() {
   }
 }
 
+
+
+
+
+function starttrial2() {
+  
+  var emailinput = $("#trialemail2").val().trim();
+    $.ajax({
+      type: 'POST',
+      url: "https://autodubberapi.neurals.ai/mail/",
+      data: JSON.stringify({email: emailinput}),
+      contentType: "application/json; charset=utf-8",
+      success: function(response) {
+        console.log("Email ID noted.")
+        $("#trynow2").get(0).innerHTML="<em><span style='color:green;font-weight:900'>Your mail is noted.</span> We will contact you soon!</em>"
+        
+      },
+      error: function(xhr, status, error) {
+      }
+    });
+  } 
 // ---------------- price monthly yearly toggle -------------
 $("#toggleswitch").change(function () {
   if (this.checked) {

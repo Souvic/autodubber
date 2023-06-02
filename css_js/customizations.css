@@ -316,6 +316,20 @@ code {
     color: #395d9bae;
     transition: 0.2s;
 }
+#trynow2 {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    text-align: right;
+    margin-top: 0.6em;
+    border: 0;
+    background: transparent;
+    border-radius: 0.2em;
+    font-size: 1em;
+    vertical-align: text-bottom;
+    color: #395d9bae;
+    transition: 0.2s;
+}
 
 .btn-outline-dark {
     border-color: #d1d1d1;
