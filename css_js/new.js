@@ -9,9 +9,23 @@ fetch("/config")
 
   // new
   // Event handler
+  var creditadd=parseInt($("#creditadd").text(), 10);
   document.querySelector("#BuyBtn2").addEventListener("click", () => {
     // Get Checkout Session ID
-    fetch("/create-checkout-session")
+    fetch("/create-checkout-session/"+creditadd.toString()+"/")
+    .then((result) => { return result.json(); })
+    .then((data) => {
+      console.log(data);
+      // Redirect to Stripe Checkout
+      return stripe.redirectToCheckout({sessionId: data.sessionId})
+    })
+    .then((res) => {
+      console.log(res);
+    });
+  });
+  document.querySelector("#BuyBtn1").addEventListener("click", () => {
+    // Get Checkout Session ID
+    fetch("/create-checkout-session/100")
     .then((result) => { return result.json(); })
     .then((data) => {
       console.log(data);
