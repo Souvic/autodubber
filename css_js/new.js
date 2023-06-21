@@ -9,7 +9,7 @@ fetch("/config")
 
   // new
   // Event handler
-  var creditadd=parseInt($("#creditadd").text(), 10);
+  var creditadd=Math.ceil(parseFloat($("#creditadd").text(),10));
   document.querySelector("#BuyBtn2").addEventListener("click", () => {
     // Get Checkout Session ID
     fetch("/create-checkout-session/"+creditadd.toString()+"/")
