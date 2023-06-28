@@ -178,7 +178,7 @@ function starttrial2() {
   var emailinput = $("#trialemail2").val().trim();
     $.ajax({
       type: 'POST',
-      url: "https://autodubberapi.neurals.ai/mail/",
+      url: "https://autodubberapi.neurals.ai/api/mail/",
       data: JSON.stringify({email: emailinput}),
       contentType: "application/json; charset=utf-8",
       success: function(response) {
