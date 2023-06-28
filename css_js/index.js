@@ -124,7 +124,7 @@ function starttrial() {
     $('#button-addon2').attr("disabled", true);
     $.ajax({
       type: 'POST',
-      url: "https://autodubberapi.neurals.ai/audio/",
+      url: "https://autodubber.neurals.ai/api/audio/",
       data: JSON.stringify({email: emailinput,name: nameinput}),
       contentType: "application/json; charset=utf-8",
       responseType: 'blob',
