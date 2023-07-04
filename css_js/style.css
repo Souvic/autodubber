@@ -17,56 +17,56 @@
   font-family: uncut sans;
   font-style: normal;
   font-weight: 400;
-  src: local('Uncut Sans'), url(../assets/Uncut-Sans-Regular.otf) format('woff')
+  src: local('Uncut Sans'), url(../fonts/uncut-sans/Uncut-Sans-Regular.otf) format('woff')
 }
 
 @font-face {
   font-family: uncut sans;
   font-style: italic;
   font-weight: 400;
-  src: local('Uncut Sans'), url(../assets/Uncut-Sans-RegularOblique.otf) format('woff')
+  src: local('Uncut Sans'), url(../fonts/uncut-sans/Uncut-Sans-RegularOblique.otf) format('woff')
 }
 
 @font-face {
   font-family: uncut sans;
   font-style: normal;
   font-weight: 500;
-  src: local('Uncut Sans'), url(../assets/Uncut-Sans-Medium.otf) format('woff')
+  src: local('Uncut Sans'), url(../fonts/uncut-sans/Uncut-Sans-Medium.otf) format('woff')
 }
 
 @font-face {
   font-family: uncut sans;
   font-style: italic;
   font-weight: 500;
-  src: local('Uncut Sans'), url(../assets/Uncut-Sans-MediumOblique.otf) format('woff')
+  src: local('Uncut Sans'), url(../fonts/uncut-sans/Uncut-Sans-MediumOblique.otf) format('woff')
 }
 
 @font-face {
   font-family: uncut sans;
   font-style: normal;
   font-weight: 600;
-  src: local('Uncut Sans'), url(../assets/Uncut-Sans-Semibold.otf) format('woff')
+  src: local('Uncut Sans'), url(../fonts/uncut-sans/Uncut-Sans-Semibold.otf) format('woff')
 }
 
 @font-face {
   font-family: uncut sans;
   font-style: italic;
   font-weight: 600;
-  src: local('Uncut Sans'), url(../assets/Uncut-Sans-SemiboldOblique.otf) format('woff')
+  src: local('Uncut Sans'), url(../fonts/uncut-sans/Uncut-Sans-SemiboldOblique.otf) format('woff')
 }
 
 @font-face {
   font-family: uncut sans;
   font-style: normal;
   font-weight: 700;
-  src: local('Uncut Sans'), url(../assets/Uncut-Sans-Bold.otf) format('woff')
+  src: local('Uncut Sans'), url(../fonts/uncut-sans/Uncut-Sans-Bold.otf) format('woff')
 }
 
 @font-face {
   font-family: uncut sans;
   font-style: italic;
   font-weight: 700;
-  src: local('Uncut Sans'), url(../assets/Uncut-Sans-BoldOblique.otf) format('woff')
+  src: local('Uncut Sans'), url(../fonts/uncut-sans/Uncut-Sans-BoldOblique.otf) format('woff')
 }
 
 @font-face {
