@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 html {
     background: rgb(242 244 247);
 }
 
 body {
-    font-weight: 900;
-    font-family: Ubuntu, Uncut Sans, sans-serif;
-    /* background-image: linear-gradient(to bottom,
+    font-family: Uncut Sans, sans-serif;
+    background-image: linear-gradient(to bottom,
             #f1f5f980,
-            #fefefe 30%), url('../assets/header_grid2.png'); */
+            #fefefe 30%), url('../assets/header_grid2.png');
     background-repeat: repeat;
 }
 
@@ -27,19 +25,19 @@ body {
     border-radius: 0.6em;
 }
 
-.btn-autodubber {
+.btn-pinggy {
     background-color: rgba(24, 24, 24, 0.774);
     color: white;
     border-color: black;
 }
 
-.btn-autodubber:hover {
+.btn-pinggy:hover {
     background-color: rgb(0, 0, 0);
     color: white;
     box-shadow: 0 0 3px 0 #b3e0ff;
 }
 
-.btn-outline-autodubber {
+.btn-outline-pinggy {
     border-color: rgba(0, 0, 0, 0.774);
     color: rgba(0, 0, 0, 0.774);
     background-color: white;
@@ -65,11 +63,11 @@ body {
     border-style: solid;
 }
 
-.autodubber-link {
+.pinggy-link {
     color: #0695ff;
 }
 
-.autodubber-link :hover {
+.pinggy-link :hover {
     color: #005a9c;
 }
 
@@ -152,7 +150,7 @@ body {
     display: inline-flex;
     align-items: center;
     padding: .25rem .5rem;
-    font-weight: 900;
+    font-weight: 600;
     color: rgba(0, 0, 0, .65);
     background-color: transparent;
     border: 0;
@@ -220,7 +218,7 @@ code {
     background-color: rgb(243, 243, 243);
     color: #d63384 !important;
 }
-#textchanger{box-shadow: 2px 2px 15px rgba(255, 234, 234, 0.84);}
+
 
 /* Navbar --------------------------------- */
 .navbar {
@@ -243,7 +241,7 @@ code {
 
 .nav-link span {
     color: rgb(52, 59, 70);
-    font-weight: 900;
+    font-weight: 400;
     font-size: 0.92em;
 }
 
@@ -316,20 +314,6 @@ code {
     color: #395d9bae;
     transition: 0.2s;
 }
-#trynow2 {
-    margin:0;
-    padding: 0;
-    width: 100%;
-    text-align: right;
-    margin-top: 0.6em;
-    border: 0;
-    background: transparent;
-    border-radius: 0.2em;
-    font-size: 1em;
-    vertical-align: text-bottom;
-    color: #395d9bae;
-    transition: 0.2s;
-}
 
 .btn-outline-dark {
     border-color: #d1d1d1;
@@ -345,7 +329,7 @@ code {
 
 #textchanger {
     color: rgb(57, 57, 58);
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .videocontainer {
@@ -365,6 +349,11 @@ code {
 
 
 /* ----------  Toggle button ------------- */
+.form-check-input:checked {
+    background-color: #4688eb;
+    border-color: #2f5a81;
+}
+
 .switch {
     position: relative;
     display: inline-block;
@@ -508,6 +497,10 @@ pre {
  .tab-panel {
     margin-top: 32px;
     margin-bottom: 32px;
+}
+
+#advancedSettingsTabContent {
+    border: 0;
 }
  .tab-content {
     display: block;
