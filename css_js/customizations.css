@@ -25,19 +25,19 @@ body {
     border-radius: 0.6em;
 }
 
-.btn-pinggy {
+.btn-autodubber {
     background-color: rgba(24, 24, 24, 0.774);
     color: white;
     border-color: black;
 }
 
-.btn-pinggy:hover {
+.btn-autodubber:hover {
     background-color: rgb(0, 0, 0);
     color: white;
     box-shadow: 0 0 3px 0 #b3e0ff;
 }
 
-.btn-outline-pinggy {
+.btn-outline-autodubber {
     border-color: rgba(0, 0, 0, 0.774);
     color: rgba(0, 0, 0, 0.774);
     background-color: white;
@@ -63,11 +63,11 @@ body {
     border-style: solid;
 }
 
-.pinggy-link {
+.autodubber-link {
     color: #0695ff;
 }
 
-.pinggy-link :hover {
+.autodubber-link :hover {
     color: #005a9c;
 }
 
@@ -145,6 +145,23 @@ body {
         display: inline;
     }
 }
+
+#textchanger{box-shadow: 2px 2px 15px rgba(255, 234, 234, 0.84);}
+#trynow2 {	
+    margin:0;	
+    padding: 0;	
+    width: 100%;	
+    text-align: right;	
+    margin-top: 0.6em;	
+    border: 0;	
+    background: transparent;	
+    border-radius: 0.2em;	
+    font-size: 1em;	
+    vertical-align: text-bottom;	
+    color: #395d9bae;	
+    transition: 0.2s;	
+}
+
 
 .btn-toggle {
     display: inline-flex;
