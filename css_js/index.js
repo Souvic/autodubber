@@ -218,13 +218,19 @@ $("#textchanger").teletype({
   delay: 10,
   pause: 1000,
   text: [
-    "Scale your ad for multiple languages!",
+    /**"Scale your ad for multiple languages!",
     "Add a personal touch to your videos!",
     "Captivate customers in Personalized Ad!",
     "Add voiceovers to Pre-recorded videos!",
     "Lipsync Videos in Original Voice!",
     "Enhance videos with customized voices!",
-    "Transform videos with Voice Cloning!"
+    "Transform videos with Voice Cloning!"**/
+    "10x your viewer base!",
+    "Personalize your videos!",
+    "Localize your videos!",
+    "Lipsync Videos!",
+    "Enhance videos quality!",
+    "Cloning your voice!"
   ],
 });
 
