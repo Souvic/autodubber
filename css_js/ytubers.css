@@ -1,0 +1,323 @@
+
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/style.min(1).css ; media=all */
+    @media all{
+
+    h2,h3,h4{margin-top:.5rem;margin-bottom:1rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit;}
+    h2{font-size:2rem;}
+    h3{font-size:1.75rem;}
+    h4{font-size:1.5rem;}
+    .ytubers{border-style:none;height:auto;max-width:100%;}
+    @media print{
+    *,:after,:before{background:transparent!important;color:#000!important;-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important;}
+    img{page-break-inside:avoid;}
+    h2,h3{orphans:3;widows:3;}
+    h2,h3{page-break-after:avoid;}
+    }
+    }
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/frontend-legacy.min.css ; media=all */
+    @media all{
+    .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated>.elementor-widget-wrap{padding:10px;}
+    @media (max-width:767px){
+    .elementor-column{width:100%;}
+    }
+    }
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/frontend-lite.min.css ; media=all */
+    @media all{
+    .elementor *,.elementor :after,.elementor :before{box-sizing:border-box;}
+    .elementor img{height:auto;max-width:100%;border:none;border-radius:0;box-shadow:none;}
+    .elementor-widget-wrap>.elementor-element.elementor-absolute{position:absolute;}
+    .elementor-widget-wrap .elementor-element.elementor-widget__width-auto,.elementor-widget-wrap .elementor-element.elementor-widget__width-initial{max-width:100%;}
+    @media (max-width:767px){
+    .elementor-widget-wrap .elementor-element.elementor-widget-mobile__width-auto{max-width:100%;}
+    }
+    .elementor-element{--flex-direction:initial;--flex-wrap:initial;--justify-content:initial;--align-items:initial;--align-content:initial;--gap:initial;--flex-basis:initial;--flex-grow:initial;--flex-shrink:initial;--order:initial;--align-self:initial;flex-basis:var(--flex-basis);flex-grow:var(--flex-grow);flex-shrink:var(--flex-shrink);order:var(--order);align-self:var(--align-self);}
+    .elementor-element.elementor-absolute{z-index:1;}
+    .elementor-element:where(.e-con-full,.elementor-widget){flex-direction:var(--flex-direction);flex-wrap:var(--flex-wrap);justify-content:var(--justify-content);align-items:var(--align-items);align-content:var(--align-content);gap:var(--gap);}
+    .elementor-section{position:relative;}
+    .elementor-section .elementor-container{display:flex;margin-right:auto;margin-left:auto;position:relative;}
+    @media (max-width:1024px){
+    .elementor-section .elementor-container{flex-wrap:wrap;}
+    }
+    .elementor-row{width:100%;display:flex;}
+    @media (max-width:1024px){
+    .elementor-row{flex-wrap:wrap;}
+    }
+    .elementor-widget-wrap{position:relative;width:100%;flex-wrap:wrap;align-content:flex-start;}
+    .elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap{display:flex;}
+    .elementor-widget-wrap>.elementor-element{width:100%;}
+    .elementor-widget{position:relative;}
+    .elementor-widget:not(:last-child){margin-bottom:20px;}
+    .elementor-widget:not(:last-child).elementor-absolute,.elementor-widget:not(:last-child).elementor-widget__width-auto,.elementor-widget:not(:last-child).elementor-widget__width-initial{margin-bottom:0;}
+    .elementor-column{position:relative;min-height:1px;display:flex;}
+    .elementor-column-wrap{width:100%;position:relative;display:flex;}
+    .elementor-inner-section .elementor-column-gap-no .elementor-element-populated{padding:0;}
+    @media (min-width:768px){
+    .elementor-column.elementor-col-50{width:50%;}
+    .elementor-column.elementor-col-100{width:100%;}
+    }
+    @media (max-width:767px){
+    .elementor-column{width:100%;}
+    }
+    .elementor-element .elementor-widget-container{transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,transform var(--e-transform-transition-duration,.4s);}
+    .elementor-icon{display:inline-block;line-height:1;transition:all .3s;color:#69727d;font-size:50px;text-align:center;}
+    .elementor-icon:hover{color:#69727d;}
+    .elementor-icon svg{width:1em;height:1em;position:relative;display:block;}
+    .elementor-icon svg:before{position:absolute;left:50%;transform:translateX(-50%);}
+    .elementor-element{--swiper-theme-color:#000;--swiper-navigation-size:44px;--swiper-pagination-bullet-size:6px;--swiper-pagination-bullet-horizontal-gap:6px;}
+    }
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/swiper.min.css ; media=all */
+    @media all{
+    .swiper-container{margin-left:auto;margin-right:auto;position:relative;overflow:hidden;z-index:1;}
+    .swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;box-sizing:content-box;}
+    .swiper-container-android .swiper-slide,.swiper-wrapper{transform:translateZ(0);}
+    .swiper-container-free-mode>.swiper-wrapper{transition-timing-function:ease-out;margin:0 auto;}
+    .swiper-slide{flex-shrink:0;width:100%;height:100%;position:relative;}
+    .swiper-container .swiper-notification{position:absolute;left:0;top:0;pointer-events:none;opacity:0;z-index:-1000;}
+    .swiper-pagination{position:absolute;text-align:center;transition:.3s;transform:translateZ(0);z-index:10;}
+    .swiper-container-horizontal>.swiper-pagination-bullets{bottom:5px;left:0;width:100%;}
+    .swiper-pagination-bullet{width:6px;height:6px;display:inline-block;border-radius:50%;background:#000;opacity:.2;}
+    .swiper-pagination-clickable .swiper-pagination-bullet{cursor:pointer;}
+    .swiper-pagination-bullet-active{opacity:1;}
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 6px;}
+    }
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/post-7.css ; media=all */
+    @media all{
+    .elementor-widget:not(:last-child){margin-bottom:20px;}
+    .elementor-element{--widgets-spacing:20px;}
+    }
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/main.css ; media=all */
+    @media all{
+    .elementor-widget-image,.elementor-widget-image > div,.elementor-widget-image img{line-height:0;}
+    }
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/global.css ; media=all */
+    @media all{
+    .elementor-widget-heading .elementor-heading-title{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}
+    .elementor-widget-icon-box.elementor-view-default .elementor-icon{fill:var( --e-global-color-primary );color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}
+    .elementor-widget-icon-box .elementor-icon-box-title{color:var( --e-global-color-primary );}
+    .elementor-widget-icon-box .elementor-icon-box-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}
+    }
+    /*! CSS Used from: Embedded */
+    .creators_block .elementor-widget-container .elementor-heading-title{margin-top:0px;margin-bottom:0px;}
+    .yt-box .elementor-icon-box-wrapper .elementor-icon-box-content .elementor-icon-box-title{margin-top:0px;}
+    .yt-box .elementor-icon-box-wrapper .elementor-icon-box-icon{margin-top:0px;}
+    .creators_dt .dce-carousel-controls{display:none;}
+    .elementor-heading-title{margin:0px;}
+    .yt-box .elementor-icon-box-content{overflow:hidden;}
+    .yt-box .elementor-icon-box-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+    .creators_dt_1 .dce-posts-wrapper{display:flex;flex-shrink:0;transition:none;transform:translate3d(0, 0, 0)!important;}
+    .creators_dt_1 .dce-posts-container{animation:rotate-5aaaf0eb 126s linear infinite;will-change:transform;animation-duration:96s;display:flex;overflow:visible;}
+    .creators_rtl_dt_1.creators_dt_1 .dce-posts-container{animation-direction:reverse;animation-duration:96s;}
+    .creators_dt  article.creators{width:400px!important;}
+    @media only screen and (max-width:1024px){
+    .creators_dt  article.creators{width:350px!important;}
+    }
+    @media only screen and (max-width:767px){
+    .creators_dt  article.creators{width:320px!important;}
+    }
+    /*! CSS Used from: Embedded */
+    .elementor-heading-title{padding:0;margin:0;line-height:1;}
+    /*! CSS Used from: Embedded */
+    .elementor-widget-image{text-align:center;}
+    .elementor-widget-image img{vertical-align:middle;display:inline-block;}
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/widget-icon-box.min.css */
+    .elementor-widget-icon-box .elementor-icon-box-wrapper{display:block;text-align:center;}
+    .elementor-widget-icon-box .elementor-icon-box-icon{margin-bottom:var(--icon-box-icon-margin,15px);margin-right:auto;margin-left:auto;}
+    @media (min-width:768px){
+    .elementor-widget-icon-box.elementor-vertical-align-middle .elementor-icon-box-wrapper{align-items:center;}
+    }
+    .elementor-widget-icon-box.elementor-position-right .elementor-icon-box-wrapper{display:flex;}
+    .elementor-widget-icon-box.elementor-position-right .elementor-icon-box-icon{display:inline-flex;flex:0 0 auto;}
+    .elementor-widget-icon-box.elementor-position-right .elementor-icon-box-wrapper{text-align:right;flex-direction:row-reverse;}
+    .elementor-widget-icon-box.elementor-position-right .elementor-icon-box-icon{margin-left:var(--icon-box-icon-margin,15px);margin-right:0;margin-bottom:unset;}
+    @media (max-width:767px){
+    .elementor-widget-icon-box.elementor-mobile-position-right .elementor-icon-box-wrapper{display:flex;}
+    .elementor-widget-icon-box.elementor-mobile-position-right .elementor-icon-box-icon{display:inline-flex;flex:0 0 auto;}
+    .elementor-widget-icon-box.elementor-mobile-position-right .elementor-icon-box-wrapper{text-align:right;flex-direction:row-reverse;}
+    .elementor-widget-icon-box.elementor-mobile-position-right .elementor-icon-box-icon{margin-left:var(--icon-box-icon-margin,15px);margin-right:0;margin-bottom:unset;}
+    .elementor-widget-icon-box.elementor-position-right .elementor-icon-box-icon{display:block;flex:unset;}
+    }
+    .elementor-widget-icon-box .elementor-icon-box-content{flex-grow:1;}
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/post-13087.css ; media=all */
+    @media all{
+    .elementor-13087 .elementor-element.elementor-element-883c2d3{overflow:hidden;padding:10px 0px 10px 0px;}
+    .elementor-13087 .elementor-element.elementor-element-b90cc6c > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}
+    .elementor-13087 .elementor-element.elementor-element-b90cc6c > .elementor-element-populated > .elementor-widget-wrap{padding:0px 0px 0px 0px;}
+    .elementor-13087 .elementor-element.elementor-element-b4061d0 > .elementor-widget-container{margin:0px 0px 28px 0px;padding:0px 0px 0px 0px;}
+    .elementor-13087 .elementor-element.elementor-element-1556b43 > .elementor-widget-container{margin:0px 0px 28px 0px;padding:0px 0px 0px 0px;}
+    @media (max-width:1024px){
+    .elementor-13087 .elementor-element.elementor-element-883c2d3{padding:20px 0px 20px 0px;}
+    }
+    @media (max-width:767px){
+    .elementor-13087 .elementor-element.elementor-element-883c2d3{padding:020px 0px 20px 0px;}
+    .elementor-13087 .elementor-element.elementor-element-b4061d0 > .elementor-widget-container{margin:0px 0px 20px 0px;}
+    }
+    }
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/post-11907.css ; media=all */
+    @media all{
+    .elementor-11907 .elementor-element.elementor-element-77fc55f1:not(.elementor-motion-effects-element-type-background){background-color:lavender;}
+    .elementor-11907 .elementor-element.elementor-element-77fc55f1{border-radius:10px 10px 10px 10px;}
+    .elementor-11907 .elementor-element.elementor-element-77fc55f1{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:20px 25px 20px 20px;}
+    .elementor-11907 .elementor-element.elementor-element-3bf40caf > .elementor-element-populated{border-style:none;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;}
+    .elementor-11907 .elementor-element.elementor-element-3bf40caf > .elementor-element-populated > .elementor-widget-wrap{padding:0px 0px 0px 0px;}
+    .elementor-11907 .elementor-element.elementor-element-74223fa4{text-align:left;width:var( --container-widget-width, 40px );max-width:40px;--container-widget-width:40px;--container-widget-flex-grow:0;top:0px;}
+    .elementor-11907 .elementor-element.elementor-element-74223fa4 img{border-radius:50% 50% 50% 50%;}
+    body:not(.rtl) .elementor-11907 .elementor-element.elementor-element-74223fa4{left:0px;}
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e.elementor-view-default .elementor-icon{fill:#FF0000;color:#FF0000;border-color:#FF0000;}
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e.elementor-view-default .elementor-icon:hover{fill:#FF0000;color:#FF0000;border-color:#FF0000;}
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e{--icon-box-icon-margin:10px;width:auto;max-width:auto;}
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e .elementor-icon{font-size:26px;}
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e .elementor-icon-box-wrapper{text-align:left;}
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e .elementor-icon-box-title{margin-bottom:0px;}
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e .elementor-icon-box-title{font-family:var( --e-global-typography-a46cf9e-font-family ), Sans-serif;font-size:var( --e-global-typography-a46cf9e-font-size );font-weight:var( --e-global-typography-a46cf9e-font-weight );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 20px 55px;border-style:none;}
+    .elementor-11907 .elementor-element.elementor-element-4bd739a1 > .elementor-container > .elementor-row > .elementor-column > .elementor-column-wrap > .elementor-widget-wrap{align-content:flex-start;align-items:flex-start;}
+    .elementor-11907 .elementor-element.elementor-element-4bd739a1{border-style:solid;border-width:1px 0px 0px 0px;border-color:var( --e-global-color-cf37fc5 );transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:20px 0px 0px 0px;}
+    .elementor-11907 .elementor-element.elementor-element-40f65ee2 > .elementor-element-populated > .elementor-widget-wrap{padding:0px 0px 0px 0px;}
+    .elementor-11907 .elementor-element.elementor-element-b72e03c .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;line-height:1.6em;}
+    .elementor-11907 .elementor-element.elementor-element-b72e03c > .elementor-widget-container{padding:4px 8px 4px 8px;background-color:#8360FF4D;border-radius:2px 2px 2px 2px;}
+    .elementor-11907 .elementor-element.elementor-element-b72e03c{width:auto;max-width:auto;}
+    .elementor-11907 .elementor-element.elementor-element-52cb67ef{text-align:left;}
+    .elementor-11907 .elementor-element.elementor-element-52cb67ef .elementor-heading-title{font-family:var( --e-global-typography-a46cf9e-font-family ), Sans-serif;font-size:var( --e-global-typography-a46cf9e-font-size );font-weight:var( --e-global-typography-a46cf9e-font-weight );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    .elementor-11907 .elementor-element.elementor-element-4e0f47f1 > .elementor-element-populated > .elementor-widget-wrap{padding:0px 0px 0px 0px;}
+    .elementor-11907 .elementor-element.elementor-element-c0b0757 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;line-height:1.6em;}
+    .elementor-11907 .elementor-element.elementor-element-c0b0757 > .elementor-widget-container{padding:4px 8px 4px 8px;background-color:#8360FF4D;border-radius:2px 2px 2px 2px;}
+    .elementor-11907 .elementor-element.elementor-element-c0b0757{width:auto;max-width:auto;}
+    .elementor-11907 .elementor-element.elementor-element-44778ea7{text-align:left;}
+    .elementor-11907 .elementor-element.elementor-element-44778ea7 .elementor-heading-title{font-family:var( --e-global-typography-a46cf9e-font-family ), Sans-serif;font-size:var( --e-global-typography-a46cf9e-font-size );font-weight:var( --e-global-typography-a46cf9e-font-weight );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    @media (max-width:1024px){
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e .elementor-icon{font-size:24px;}
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e .elementor-icon-box-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    .elementor-11907 .elementor-element.elementor-element-52cb67ef .elementor-heading-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    .elementor-11907 .elementor-element.elementor-element-44778ea7 .elementor-heading-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    }
+    @media (min-width:768px){
+    .elementor-11907 .elementor-element.elementor-element-3bf40caf{width:100%;}
+    }
+    @media (max-width:1024px) and (min-width:768px){
+    .elementor-11907 .elementor-element.elementor-element-3bf40caf{width:100%;}
+    .elementor-11907 .elementor-element.elementor-element-40f65ee2{width:50%;}
+    .elementor-11907 .elementor-element.elementor-element-4e0f47f1{width:50%;}
+    }
+    @media (max-width:767px){
+    .elementor-11907 .elementor-element.elementor-element-77fc55f1{padding:15px 20px 15px 15px;}
+    .elementor-11907 .elementor-element.elementor-element-3bf40caf{width:100%;}
+    .elementor-11907 .elementor-element.elementor-element-74223fa4 img{width:30px;}
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e .elementor-icon{font-size:22px;}
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e .elementor-icon-box-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    .elementor-11907 .elementor-element.elementor-element-4443ba4e > .elementor-widget-container{padding:0px 0px 10px 40px;}
+    .elementor-11907 .elementor-element.elementor-element-4bd739a1{margin-top:0px;margin-bottom:0px;}
+    .elementor-11907 .elementor-element.elementor-element-40f65ee2{width:50%;}
+    .elementor-11907 .elementor-element.elementor-element-52cb67ef .elementor-heading-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    .elementor-11907 .elementor-element.elementor-element-4e0f47f1{width:50%;}
+    .elementor-11907 .elementor-element.elementor-element-44778ea7 .elementor-heading-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    }
+    }
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/post-11903.css ; media=all */
+    @media all{
+    .elementor-11903 .elementor-element.elementor-element-1a062e97:not(.elementor-motion-effects-element-type-background){background-color:#FFEEF9;}
+    .elementor-11903 .elementor-element.elementor-element-1a062e97{border-radius:10px 10px 10px 10px;}
+    .elementor-11903 .elementor-element.elementor-element-1a062e97{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:20px 25px 20px 20px;}
+    .elementor-11903 .elementor-element.elementor-element-6c96cc19 > .elementor-element-populated{border-style:none;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;}
+    .elementor-11903 .elementor-element.elementor-element-6c96cc19 > .elementor-element-populated > .elementor-widget-wrap{padding:0px 0px 0px 0px;}
+    .elementor-11903 .elementor-element.elementor-element-5b13dc69{text-align:left;width:var( --container-widget-width, 40px );max-width:40px;--container-widget-width:40px;--container-widget-flex-grow:0;top:0px;}
+    .elementor-11903 .elementor-element.elementor-element-5b13dc69 img{border-radius:50% 50% 50% 50%;}
+    body:not(.rtl) .elementor-11903 .elementor-element.elementor-element-5b13dc69{left:0px;}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7.elementor-view-default .elementor-icon{fill:#FF0000;color:#FF0000;border-color:#FF0000;}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7.elementor-view-default .elementor-icon:hover{fill:#FF0000;color:#FF0000;border-color:#FF0000;}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7{--icon-box-icon-margin:10px;width:auto;max-width:auto;}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7 .elementor-icon{font-size:26px;}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7 .elementor-icon-box-wrapper{text-align:left;}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7 .elementor-icon-box-title{margin-bottom:0px;}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7 .elementor-icon-box-title{font-family:var( --e-global-typography-a46cf9e-font-family ), Sans-serif;font-size:var( --e-global-typography-a46cf9e-font-size );font-weight:var( --e-global-typography-a46cf9e-font-weight );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 020px 55px;border-style:none;}
+    .elementor-11903 .elementor-element.elementor-element-7c531d8c > .elementor-container > .elementor-row > .elementor-column > .elementor-column-wrap > .elementor-widget-wrap{align-content:flex-start;align-items:flex-start;}
+    .elementor-11903 .elementor-element.elementor-element-7c531d8c{border-style:solid;border-width:1px 0px 0px 0px;border-color:var( --e-global-color-1518712 );transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:20px 0px 0px 0px;}
+    .elementor-11903 .elementor-element.elementor-element-651c333d > .elementor-element-populated > .elementor-widget-wrap{padding:0px 0px 0px 0px;}
+    .elementor-11903 .elementor-element.elementor-element-13c2b28 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;line-height:1.6em;}
+    .elementor-11903 .elementor-element.elementor-element-13c2b28 > .elementor-widget-container{padding:4px 8px 4px 8px;background-color:#FDE0F4;border-radius:2px 2px 2px 2px;}
+    .elementor-11903 .elementor-element.elementor-element-13c2b28{width:auto;max-width:auto;}
+    .elementor-11903 .elementor-element.elementor-element-64b32c08{text-align:left;}
+    .elementor-11903 .elementor-element.elementor-element-64b32c08 .elementor-heading-title{font-family:var( --e-global-typography-a46cf9e-font-family ), Sans-serif;font-size:var( --e-global-typography-a46cf9e-font-size );font-weight:var( --e-global-typography-a46cf9e-font-weight );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    .elementor-11903 .elementor-element.elementor-element-52e014f5 > .elementor-element-populated > .elementor-widget-wrap{padding:0px 0px 0px 0px;}
+    .elementor-11903 .elementor-element.elementor-element-4a39429 .elementor-heading-title{font-family:"Inter", Sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;line-height:1.6em;}
+    .elementor-11903 .elementor-element.elementor-element-4a39429 > .elementor-widget-container{padding:4px 8px 4px 8px;background-color:#FDE0F4;border-radius:2px 2px 2px 2px;}
+    .elementor-11903 .elementor-element.elementor-element-4a39429{width:auto;max-width:auto;}
+    .elementor-11903 .elementor-element.elementor-element-60329edb{text-align:left;}
+    .elementor-11903 .elementor-element.elementor-element-60329edb .elementor-heading-title{font-family:var( --e-global-typography-a46cf9e-font-family ), Sans-serif;font-size:var( --e-global-typography-a46cf9e-font-size );font-weight:var( --e-global-typography-a46cf9e-font-weight );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    @media (min-width:768px){
+    .elementor-11903 .elementor-element.elementor-element-651c333d{width:50%;}
+    .elementor-11903 .elementor-element.elementor-element-52e014f5{width:50%;}
+    }
+    @media (max-width:1024px){
+    .elementor-11903 .elementor-element.elementor-element-1a062e97{margin-top:0px;margin-bottom:0px;padding:20px 25px 20px 25px;}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7 .elementor-icon{font-size:24px;}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7 .elementor-icon-box-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    .elementor-11903 .elementor-element.elementor-element-64b32c08 .elementor-heading-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    .elementor-11903 .elementor-element.elementor-element-60329edb .elementor-heading-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    }
+    @media (max-width:767px){
+    .elementor-11903 .elementor-element.elementor-element-1a062e97{margin-top:0px;margin-bottom:0px;padding:15px 20px 15px 15px;}
+    .elementor-11903 .elementor-element.elementor-element-6c96cc19{width:100%;}
+    .elementor-11903 .elementor-element.elementor-element-5b13dc69 img{width:30px;}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7 .elementor-icon{font-size:22px;}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7 .elementor-icon-box-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7 > .elementor-widget-container{padding:0px 0px 10px 40px;}
+    .elementor-11903 .elementor-element.elementor-element-1df260f7{width:auto;max-width:auto;}
+    .elementor-11903 .elementor-element.elementor-element-7c531d8c{margin-top:0px;margin-bottom:0px;}
+    .elementor-11903 .elementor-element.elementor-element-651c333d{width:50%;}
+    .elementor-11903 .elementor-element.elementor-element-64b32c08 .elementor-heading-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    .elementor-11903 .elementor-element.elementor-element-52e014f5{width:50%;}
+    .elementor-11903 .elementor-element.elementor-element-60329edb .elementor-heading-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
+    }
+    @media (max-width:1024px) and (min-width:768px){
+    .elementor-11903 .elementor-element.elementor-element-6c96cc19{width:100%;}
+    .elementor-11903 .elementor-element.elementor-element-651c333d{width:50%;}
+    .elementor-11903 .elementor-element.elementor-element-52e014f5{width:50%;}
+    }
+    }
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/dynamic-posts.min.css ; media=all */
+    @media all{
+    .dce-post-item:not(.wow){-webkit-transition:opacity 0.6s ease,filter 0.6s ease;-ms-transition:opacity 0.6s ease,filter 0.6s ease;transition:opacity 0.6s ease,filter 0.6s ease;}
+    }
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/dynamic-posts-skin-carousel.min.css ; media=all */
+    @media all{
+    .dce-dynamic-posts-collection:after{display:none;}
+    .dce-posts-container.dce-skin-carousel .dce-post-item{display:flex;word-break:break-word;}
+    .dce-posts-container .dce-post-item .dce-post-block{display:flex;width:100%;flex-direction:column;}
+    .dce-carousel-controls .dce-container-pagination>.swiper-pagination-bullets .swiper-pagination-bullet{transition:background .5s,border .5s,opacity .5s;}
+    .dce-carousel-controls .dce-container-pagination>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transition:.5s transform,.5s top,.5s left,.5s background-color;}
+    .dce-dynamic-posts-collection.no-masking-yes,.dce-dynamic-posts-collection.no-masking-yes .swiper-container,.dce-dynamic-posts-collection.no-masking-yes .swiper-slide{overflow:visible;}
+    }
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/swiper.min(1).css ; media=all */
+    @media all{
+    .swiper-container{margin:0 auto;position:relative;overflow:hidden;list-style:none;padding:0;z-index:1;}
+    .swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-transition-property:-webkit-transform;transition-property:-webkit-transform;-o-transition-property:transform;transition-property:transform;transition-property:transform,-webkit-transform;-webkit-box-sizing:content-box;box-sizing:content-box;}
+    .swiper-container-android .swiper-slide,.swiper-wrapper{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);}
+    .swiper-container-free-mode>.swiper-wrapper{-webkit-transition-timing-function:ease-out;-o-transition-timing-function:ease-out;transition-timing-function:ease-out;margin:0 auto;}
+    .swiper-slide{-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;width:100%;height:100%;position:relative;-webkit-transition-property:-webkit-transform;transition-property:-webkit-transform;-o-transition-property:transform;transition-property:transform;transition-property:transform,-webkit-transform;}
+    .swiper-pagination{position:absolute;text-align:center;-webkit-transition:.3s opacity;-o-transition:.3s opacity;transition:.3s opacity;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);z-index:10;}
+    .swiper-container-horizontal>.swiper-pagination-bullets{bottom:10px;left:0;width:100%;}
+    .swiper-pagination-bullets-dynamic{overflow:hidden;font-size:0;}
+    .swiper-pagination-bullets-dynamic .swiper-pagination-bullet{-webkit-transform:scale(.33);-ms-transform:scale(.33);transform:scale(.33);position:relative;}
+    .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}
+    .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);}
+    .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev{-webkit-transform:scale(.66);-ms-transform:scale(.66);transform:scale(.66);}
+    .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev{-webkit-transform:scale(.33);-ms-transform:scale(.33);transform:scale(.33);}
+    .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next{-webkit-transform:scale(.66);-ms-transform:scale(.66);transform:scale(.66);}
+    .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next{-webkit-transform:scale(.33);-ms-transform:scale(.33);transform:scale(.33);}
+    .swiper-pagination-bullet{width:8px;height:8px;display:inline-block;border-radius:100%;background:#000;opacity:.2;}
+    .swiper-pagination-clickable .swiper-pagination-bullet{cursor:pointer;}
+    .swiper-pagination-bullet-active{opacity:1;background:#007aff;}
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 4px;}
+    .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);white-space:nowrap;}
+    .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{-webkit-transition:.2s left,.2s -webkit-transform;transition:.2s left,.2s -webkit-transform;-o-transition:.2s transform,.2s left;transition:.2s transform,.2s left;transition:.2s transform,.2s left,.2s -webkit-transform;}
+    .swiper-container .swiper-notification{position:absolute;left:0;top:0;pointer-events:none;opacity:0;z-index:-1000;}
+    }
+    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/dynamic-posts-skin-grid.min.css ; media=all */
+    @media all{
+    .dce-dynamic-posts-collection:after{display:none;}
+    .dce-posts-container .dce-post-item .dce-post-block{display:flex;width:100%;flex-direction:column;}
+    }
+    /*! CSS Used keyframes */
+    @keyframes rotate-5aaaf0eb{0%{transform:translateX(0);}100%{transform:translateX(-4736px);}}
+    @keyframes rotate-5aaaf0eb{0%{transform:translateX(0);}100%{transform:translateX(-5120px);}}
