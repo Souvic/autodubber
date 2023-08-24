@@ -1,6 +1,5 @@
 
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/style.min(1).css ; media=all */
-    @media all{
+   @media all{
 
     h2,h3,h4{margin-top:.5rem;margin-bottom:1rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit;}
     h2{font-size:2rem;}
@@ -14,15 +13,13 @@
     h2,h3{page-break-after:avoid;}
     }
     }
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/frontend-legacy.min.css ; media=all */
-    @media all{
+@media all{
     .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated>.elementor-widget-wrap{padding:10px;}
     @media (max-width:767px){
     .elementor-column{width:100%;}
     }
     }
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/frontend-lite.min.css ; media=all */
-    @media all{
+@media all{
     .elementor *,.elementor :after,.elementor :before{box-sizing:border-box;}
     .elementor img{height:auto;max-width:100%;border:none;border-radius:0;box-shadow:none;}
     .elementor-widget-wrap>.elementor-element.elementor-absolute{position:absolute;}
@@ -65,7 +62,6 @@
     .elementor-icon svg:before{position:absolute;left:50%;transform:translateX(-50%);}
     .elementor-element{--swiper-theme-color:#000;--swiper-navigation-size:44px;--swiper-pagination-bullet-size:6px;--swiper-pagination-bullet-horizontal-gap:6px;}
     }
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/swiper.min.css ; media=all */
     @media all{
     .swiper-container{margin-left:auto;margin-right:auto;position:relative;overflow:hidden;z-index:1;}
     .swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:flex;transition-property:transform;box-sizing:content-box;}
@@ -80,16 +76,13 @@
     .swiper-pagination-bullet-active{opacity:1;}
     .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 6px;}
     }
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/post-7.css ; media=all */
     @media all{
     .elementor-widget:not(:last-child){margin-bottom:20px;}
     .elementor-element{--widgets-spacing:20px;}
     }
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/main.css ; media=all */
     @media all{
     .elementor-widget-image,.elementor-widget-image > div,.elementor-widget-image img{line-height:0;}
     }
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/global.css ; media=all */
     @media all{
     .elementor-widget-heading .elementor-heading-title{color:var( --e-global-color-primary );font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );}
     .elementor-widget-icon-box.elementor-view-default .elementor-icon{fill:var( --e-global-color-primary );color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}
@@ -119,7 +112,6 @@
     /*! CSS Used from: Embedded */
     .elementor-widget-image{text-align:center;}
     .elementor-widget-image img{vertical-align:middle;display:inline-block;}
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/widget-icon-box.min.css */
     .elementor-widget-icon-box .elementor-icon-box-wrapper{display:block;text-align:center;}
     .elementor-widget-icon-box .elementor-icon-box-icon{margin-bottom:var(--icon-box-icon-margin,15px);margin-right:auto;margin-left:auto;}
     @media (min-width:768px){
@@ -137,7 +129,6 @@
     .elementor-widget-icon-box.elementor-position-right .elementor-icon-box-icon{display:block;flex:unset;}
     }
     .elementor-widget-icon-box .elementor-icon-box-content{flex-grow:1;}
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/post-13087.css ; media=all */
     @media all{
     .elementor-13087 .elementor-element.elementor-element-883c2d3{overflow:hidden;padding:10px 0px 10px 0px;}
     .elementor-13087 .elementor-element.elementor-element-b90cc6c > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}
@@ -152,7 +143,6 @@
     .elementor-13087 .elementor-element.elementor-element-b4061d0 > .elementor-widget-container{margin:0px 0px 20px 0px;}
     }
     }
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/post-11907.css ; media=all */
     @media all{
     .elementor-11907 .elementor-element.elementor-element-77fc55f1:not(.elementor-motion-effects-element-type-background){background-color:lavender;}
     .elementor-11907 .elementor-element.elementor-element-77fc55f1{border-radius:10px 10px 10px 10px;}
@@ -212,7 +202,6 @@
     .elementor-11907 .elementor-element.elementor-element-44778ea7 .elementor-heading-title{font-size:var( --e-global-typography-a46cf9e-font-size );line-height:var( --e-global-typography-a46cf9e-line-height );letter-spacing:var( --e-global-typography-a46cf9e-letter-spacing );word-spacing:var( --e-global-typography-a46cf9e-word-spacing );}
     }
     }
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/post-11903.css ; media=all */
     @media all{
     .elementor-11903 .elementor-element.elementor-element-1a062e97:not(.elementor-motion-effects-element-type-background){background-color:#FFEEF9;}
     .elementor-11903 .elementor-element.elementor-element-1a062e97{border-radius:10px 10px 10px 10px;}
@@ -275,11 +264,9 @@
     .elementor-11903 .elementor-element.elementor-element-52e014f5{width:50%;}
     }
     }
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/dynamic-posts.min.css ; media=all */
     @media all{
     .dce-post-item:not(.wow){-webkit-transition:opacity 0.6s ease,filter 0.6s ease;-ms-transition:opacity 0.6s ease,filter 0.6s ease;transition:opacity 0.6s ease,filter 0.6s ease;}
     }
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/dynamic-posts-skin-carousel.min.css ; media=all */
     @media all{
     .dce-dynamic-posts-collection:after{display:none;}
     .dce-posts-container.dce-skin-carousel .dce-post-item{display:flex;word-break:break-word;}
@@ -288,7 +275,6 @@
     .dce-carousel-controls .dce-container-pagination>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{transition:.5s transform,.5s top,.5s left,.5s background-color;}
     .dce-dynamic-posts-collection.no-masking-yes,.dce-dynamic-posts-collection.no-masking-yes .swiper-container,.dce-dynamic-posts-collection.no-masking-yes .swiper-slide{overflow:visible;}
     }
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/swiper.min(1).css ; media=all */
     @media all{
     .swiper-container{margin:0 auto;position:relative;overflow:hidden;list-style:none;padding:0;z-index:1;}
     .swiper-wrapper{position:relative;width:100%;height:100%;z-index:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-transition-property:-webkit-transform;transition-property:-webkit-transform;-o-transition-property:transform;transition-property:transform;transition-property:transform,-webkit-transform;-webkit-box-sizing:content-box;box-sizing:content-box;}
@@ -313,7 +299,6 @@
     .swiper-container-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{-webkit-transition:.2s left,.2s -webkit-transform;transition:.2s left,.2s -webkit-transform;-o-transition:.2s transform,.2s left;transition:.2s transform,.2s left;transition:.2s transform,.2s left,.2s -webkit-transform;}
     .swiper-container .swiper-notification{position:absolute;left:0;top:0;pointer-events:none;opacity:0;z-index:-1000;}
     }
-    /*! CSS Used from: file:///Users/sayanwita/Downloads/Online%20Video%20Dubbing%20with%20Dubverse.ai_files/dynamic-posts-skin-grid.min.css ; media=all */
     @media all{
     .dce-dynamic-posts-collection:after{display:none;}
     .dce-posts-container .dce-post-item .dce-post-block{display:flex;width:100%;flex-direction:column;}
