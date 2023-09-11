@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<link type="text/css" rel="stylesheet" id="dark-mode-custom-link"/>
+<link type="text/css" rel="stylesheet" id="dark-mode-general-link"/>
+<style lang="en" type="text/css" id="dark-mode-custom-style"/>
+<style lang="en" type="text/css" id="dark-mode-native-style"/>
+<style lang="en" type="text/css" id="dark-mode-native-sheet"/>
+<url>
+<loc>https://www.videodubber.cc/</loc>
+<lastmod>2023-09-10T13:11:53+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://www.videodubber.cc/pricing/</loc>
+<lastmod>2023-09-10T13:11:53+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.videodubber.cc/blogs/</loc>
+<lastmod>2023-09-10T13:11:53+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.videodubber.cc/faq/</loc>
+<lastmod>2023-09-10T13:11:53+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.videodubber.cc/about/</loc>
+<lastmod>2023-09-10T13:11:53+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.videodubber.cc/contact/</loc>
+<lastmod>2023-09-10T13:11:53+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.videodubber.cc/terms-of-service/</loc>
+<lastmod>2023-09-10T13:11:53+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.videodubber.cc/privacy-policy/</loc>
+<lastmod>2023-09-10T13:11:53+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+</urlset>
