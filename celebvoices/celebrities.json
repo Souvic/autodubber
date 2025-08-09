@@ -1,0 +1,721 @@
+{
+    "us": {
+        "leader": {
+            "elon-musk": {
+                "value": "elonmusk",
+                "label": "Elon Musk",
+                "description": "Elon Musk is a business magnate, industrial designer, and engineer. He is the founder, CEO, CTO, and chief designer of SpaceX; early investor, CEO, and product architect of Tesla, Inc.; founder of The Boring Company; co-founder of Neuralink; and co-founder and initial co-chairman of OpenAI.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "barack-obama": {
+                "value": "barackobama",
+                "label": "Barack Obama",
+                "description": "Barack Obama is an American politician who served as the 44th President of the United States from 2009 to 2017.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "donald-trump": {
+                "value": "donaldtrump",
+                "label": "Donald Trump",
+                "description": "Donald Trump is an American politician, media personality, and businessman who served as the 45th President of the United States from 2017 to 2021.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "joe-biden": {
+                "value": "joebiden",
+                "label": "Joe Biden",
+                "description": "Joe Biden is an American politician who is the 46th and current President of the United States.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "bill-gates": {
+                "value": "billgates",
+                "label": "Bill Gates",
+                "description": "Bill Gates is an American business magnate, software developer, investor, and philanthropist. He is best known as the co-founder of Microsoft Corporation.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "jeff-bezos": {
+                "value": "jeffbezos",
+                "label": "Jeff Bezos",
+                "description": "Jeff Bezos is an American internet entrepreneur, industrialist, media proprietor, and investor. He is the founder and executive chairman of Amazon.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "mark-zuckerberg": {
+                "value": "markzuckerberg",
+                "label": "Mark Zuckerberg",
+                "description": "Mark Zuckerberg is an American media magnate, internet entrepreneur, and philanthropist. He is known for co-founding Facebook, Inc. and serves as its chairman, chief executive officer, and controlling shareholder.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "steve-jobs": {
+                "value": "stevejobs",
+                "label": "Steve Jobs",
+                "description": "Steve Jobs was an American business magnate, industrial designer, investor, and media proprietor. He was the chairman, chief executive officer (CEO), and co-founder of Apple Inc.",
+                "language": "English (US)",
+                "gender": "male"
+            }
+        },
+        "musician": {
+            "taylor-swift": {
+                "value": "taylorswift",
+                "label": "Taylor Swift",
+                "description": "Taylor Swift is an American singer-songwriter. Her narrative songwriting, which often centers around her personal life, has received widespread critical plaudits and media coverage.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "snoop-dogg": {
+                "value": "snoopdogg",
+                "label": "Snoop Dogg",
+                "description": "Snoop Dogg is an American rapper, singer, songwriter, producer, media personality, entrepreneur, and actor.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "kanye-west": {
+                "value": "kanyewest",
+                "label": "Kanye West",
+                "description": "Kanye West is an American rapper, singer, songwriter, record producer, and fashion designer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "michael-jackson": {
+                "value": "michaeljackson",
+                "label": "Michael Jackson",
+                "description": "Michael Jackson was an American singer, songwriter, and dancer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "billie-eilish": {
+                "value": "billieeilish",
+                "label": "Billie Eilish",
+                "description": "Billie Eilish is an American singer and songwriter.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "drake": {
+                "value": "drake",
+                "label": "Drake",
+                "description": "Drake is a Canadian rapper, singer, songwriter, actor, and entrepreneur.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "eminem": {
+                "value": "eminem",
+                "label": "Eminem",
+                "description": "Eminem is an American rapper, songwriter, and record producer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "travis-scott": {
+                "value": "travisscott",
+                "label": "Travis Scott",
+                "description": "Travis Scott is an American rapper, singer, songwriter, and record producer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "elvis-presley": {
+                "value": "elvispresley",
+                "label": "Elvis Presley",
+                "description": "Elvis Presley was an American singer and actor.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "freddie-mercury": {
+                "value": "freddiemercury",
+                "label": "Freddie Mercury",
+                "description": "Freddie Mercury was a British singer, songwriter, record producer, and lead vocalist of the rock band Queen.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "ed-sheeran": {
+                "value": "edsheeran",
+                "label": "Ed Sheeran",
+                "description": "Ed Sheeran is an English singer, songwriter, musician, record producer, actor, and businessman.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "ariana-grande": {
+                "value": "arianagrande",
+                "label": "Ariana Grande",
+                "description": "Ariana Grande is an American singer and actress.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "beyonce": {
+                "value": "beyonce",
+                "label": "Beyoncé",
+                "description": "Beyoncé is an American singer, songwriter, actress, and record producer.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "lady-gaga": {
+                "value": "ladygaga",
+                "label": "Lady Gaga",
+                "description": "Lady Gaga is an American singer, songwriter, and actress.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "the-weeknd": {
+                "value": "theweeknd",
+                "label": "The Weeknd",
+                "description": "The Weeknd is a Canadian singer, songwriter, and record producer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "justin-bieber": {
+                "value": "justinbieber",
+                "label": "Justin Bieber",
+                "description": "Justin Bieber is a Canadian singer, songwriter, and actor.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "post-malone": {
+                "value": "postmalone",
+                "label": "Post Malone",
+                "description": "Post Malone is an American rapper, singer, songwriter, and record producer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "doja-cat": {
+                "value": "dojacat",
+                "label": "Doja Cat",
+                "description": "Doja Cat is an American rapper, singer, and songwriter.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "rihanna": {
+                "value": "rihanna",
+                "label": "Rihanna",
+                "description": "Rihanna is a Barbadian singer, actress, and businesswoman.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "bruno-mars": {
+                "value": "brunomars",
+                "label": "Bruno Mars",
+                "description": "Bruno Mars is an American singer, songwriter, record producer, multi-instrumentalist, and dancer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "shakira": {
+                "value": "shakira",
+                "label": "Shakira",
+                "description": "Shakira is a Colombian singer, songwriter, dancer, record producer, choreographer, and model.",
+                "language": "English (US)",
+                "gender": "female"
+            }
+        },
+        "actor": {
+            "morgan-freeman": {
+                "value": "morganfreeman",
+                "label": "Morgan Freeman",
+                "description": "Morgan Freeman is an American actor, director, and narrator. He is known for his distinctive deep voice and has appeared in a range of film genres.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "arnold-schwarzenegger": {
+                "value": "arnoldschwarzenegger",
+                "label": "Arnold Schwarzenegger",
+                "description": "Arnold Schwarzenegger is an Austrian-American actor, businessman, former politician and professional bodybuilder. He served as the 38th Governor of California from 2003 to 2011.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "samuel-l-jackson": {
+                "value": "samuelljackson",
+                "label": "Samuel L. Jackson",
+                "description": "Samuel L. Jackson is an American actor and producer. One of the most widely recognized actors of his generation, the films in which he has appeared have collectively grossed over $27 billion worldwide, making him the highest-grossing actor of all time (excluding cameo appearances).",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "keanu-reeves": {
+                "value": "keanureeves",
+                "label": "Keanu Reeves",
+                "description": "Keanu Reeves is a Canadian actor. Born in Beirut and raised in Toronto, Reeves began acting in theatre productions and in television films before making his feature film debut in Youngblood (1986).",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "dwayne-the-rock-johnson": {
+                "value": "dwaynetherockjohnson",
+                "label": "Dwayne \"The Rock\" Johnson",
+                "description": "Dwayne Douglas Johnson, also known by his ring name The Rock, is an American actor, businessman, and former professional wrestler.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "christopher-walken": {
+                "value": "christopherwalken",
+                "label": "Christopher Walken",
+                "description": "Christopher Walken is an American actor and comedian, whose career has spanned over 50 years. He has appeared in over 100 films and television shows.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "james-earl-jones-darth-vader-voice": {
+                "value": "jamesearljonesdarthvadervoice",
+                "label": "James Earl Jones (Darth Vader voice)",
+                "description": "James Earl Jones is an American actor. His career spans more than seven decades and he has been described as 'one of America's most distinguished and versatile' actors and 'one of the greatest actors in American history'.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "tom-hanks": {
+                "value": "tomhanks",
+                "label": "Tom Hanks",
+                "description": "Thomas Jeffrey Hanks is an American actor and filmmaker. Known for both his comedic and dramatic roles, Hanks is one of the most popular and recognizable film stars worldwide, and is widely regarded as an American cultural icon.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "robert-downey-jr": {
+                "value": "robertdowneyjr",
+                "label": "Robert Downey Jr.",
+                "description": "Robert John Downey Jr. is an American actor and producer. His career has been characterized by critical and popular success in his youth, followed by a period of substance abuse and legal troubles, before a resurgence of commercial success in middle age.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "leonardo-dicaprio": {
+                "value": "leonardodicaprio",
+                "label": "Leonardo DiCaprio",
+                "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmentalist. He has often played unconventional roles, particularly in biopics and period films.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "johnny-depp": {
+                "value": "johnnydepp",
+                "label": "Johnny Depp",
+                "description": "John Christopher 'Johnny' Depp II is an American actor, producer, and musician. He has been nominated for ten Golden Globe Awards, winning one for Best Actor for his performance of the title role in Sweeney Todd: The Demon Barber of Fleet Street (2007), and has been nominated for three Academy Awards for Best Actor, among other accolades.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "will-smith": {
+                "value": "willsmith",
+                "label": "Will Smith",
+                "description": "Willard Carroll 'Will' Smith Jr. is an American actor, comedian, producer, rapper, and songwriter. He has enjoyed success in television, film, and music.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "scarlett-johansson": {
+                "value": "scarlettjohansson",
+                "label": "Scarlett Johansson",
+                "description": "Scarlett Ingrid Johansson is an American actress and singer. The world's highest-paid actress since 2018, she has made multiple appearances in the Forbes Celebrity 100.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "emma-watson": {
+                "value": "emmawatson",
+                "label": "Emma Watson",
+                "description": "Emma Charlotte Duerre Watson is an English actress, model, and activist. She has gained recognition for her roles in both blockbusters and independent films, as well as for her women's rights work.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "jennifer-lawrence": {
+                "value": "jenniferlawrence",
+                "label": "Jennifer Lawrence",
+                "description": "Jennifer Shrader Lawrence is an American actress. The films she has acted in have grossed over $6 billion worldwide, and she was the highest-paid actress in the world in 2015 and 2016.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "chris-hemsworth": {
+                "value": "chrishemsworth",
+                "label": "Chris Hemsworth",
+                "description": "Christopher Hemsworth is an Australian actor. He rose to prominence playing Kim Hyde in the Australian television series Home and Away (2004–2007) before beginning a film career in Hollywood.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "ryan-reynolds": {
+                "value": "ryanreynolds",
+                "label": "Ryan Reynolds",
+                "description": "Ryan Rodney Reynolds is a Canadian-American actor, comedian, film producer, and screenwriter. He began his career starring in the Canadian teen soap opera Hillside (1991–1993), and had minor roles before landing the lead role on the sitcom Two Guys and a Girl between 1998 and 2001.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "jack-black": {
+                "value": "jackblack",
+                "label": "Jack Black",
+                "description": "Thomas Jacob 'Jack' Black is an American actor, comedian, musician, and songwriter. He is known for his roles in films such as High Fidelity (2000), Shallow Hal (2001), School of Rock (2003), King Kong (2005), The Holiday (2006), the Kung Fu Panda franchise (2008–present), Tropic Thunder (2008), Gulliver's Travels (2010), Bernie (2011), the Jumanji franchise (2017–present), and The House with a Clock in Its Walls (2018).",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "hugh-jackman": {
+                "value": "hughjackman",
+                "label": "Hugh Jackman",
+                "description": "Hugh Michael Jackman is an Australian actor, singer, and producer. He is best known for playing Wolverine/Logan in the X-Men film series (2000–2017), a role for which he holds the Guinness World Record for 'longest career as a live-action Marvel superhero'.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "tom-cruise": {
+                "value": "tomcruise",
+                "label": "Tom Cruise",
+                "description": "Tom Cruise is an American actor and producer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "daniel-radcliffe": {
+                "value": "danielradcliffe",
+                "label": "Daniel Radcliffe",
+                "description": "Daniel Radcliffe is an English actor.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "al-pacino": {
+                "value": "alpacino",
+                "label": "Al Pacino",
+                "description": "Al Pacino is an American actor and filmmaker.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "robert-de-niro": {
+                "value": "robertdeniro",
+                "label": "Robert De Niro",
+                "description": "Robert De Niro is an American actor, producer, and director.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "clint-eastwood": {
+                "value": "clinteastwood",
+                "label": "Clint Eastwood",
+                "description": "Clint Eastwood is an American actor, film director, composer, and producer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "jim-carrey": {
+                "value": "jimcarrey",
+                "label": "Jim Carrey",
+                "description": "Jim Carrey is a Canadian-American actor, comedian, writer, and producer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "angelina-jolie": {
+                "value": "angelinajolie",
+                "label": "Angelina Jolie",
+                "description": "Angelina Jolie is an American actress, filmmaker, and humanitarian.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "gal-gadot": {
+                "value": "galgadot",
+                "label": "Gal Gadot",
+                "description": "Gal Gadot is an Israeli actress and model.",
+                "language": "English (US)",
+                "gender": "female"
+            }
+        },
+        "cartoon": {
+            "homer-simpson-the-simpsons": {
+                "value": "homersimpsonthesimpsons",
+                "label": "Homer Simpson (The Simpsons)",
+                "description": "Homer Simpson is a fictional character and the main protagonist of the American animated sitcom The Simpsons.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "peter-griffin-family-guy": {
+                "value": "petergriffinfamilyguy",
+                "label": "Peter Griffin (Family Guy)",
+                "description": "Peter Griffin is a fictional character and the protagonist of the American animated sitcom Family Guy.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "stewie-griffin-family-guy": {
+                "value": "stewiegriffinfamilyguy",
+                "label": "Stewie Griffin (Family Guy)",
+                "description": "Stewie Griffin is a fictional character from the animated television series Family Guy.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "optimus-prime-transformers": {
+                "value": "optimusprimetransformers",
+                "label": "Optimus Prime (Transformers)",
+                "description": "Optimus Prime is a fictional character from the Transformers franchise.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "mickey-mouse": {
+                "value": "mickeymouse",
+                "label": "Mickey Mouse",
+                "description": "Mickey Mouse is a cartoon character created in 1928 by Walt Disney and Ub Iwerks.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "bugs-bunny": {
+                "value": "bugsbunny",
+                "label": "Bugs Bunny",
+                "description": "Bugs Bunny is an animated cartoon character, created in the late 1930s by Leon Schlesinger Productions (later Warner Bros. Cartoons).",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "shrek": {
+                "value": "shrek",
+                "label": "Shrek",
+                "description": "Shrek is a fictional ogre character created by American author William Steig.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "gollum-lord-of-the-rings": {
+                "value": "gollumlordoftherings",
+                "label": "Gollum (Lord of the Rings)",
+                "description": "Gollum is a fictional character from J. R. R. Tolkien's legendarium.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "rick-sanchez-rick-morty": {
+                "value": "ricksanchezrickmorty",
+                "label": "Rick Sanchez (Rick & Morty)",
+                "description": "Rick Sanchez is one of the two eponymous characters from the Adult Swim animated television series Rick and Morty.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "morty-smith-rick-morty": {
+                "value": "mortysmithrickmorty",
+                "label": "Morty Smith (Rick & Morty)",
+                "description": "Morty Smith is one of the title characters of the American animated television series Rick and Morty.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "yoda-star-wars": {
+                "value": "yodastarwars",
+                "label": "Yoda (Star Wars)",
+                "description": "Yoda was a legendary Jedi Master and stronger than most in his connection with the Force.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "patrick-star-spongebob": {
+                "value": "patrickstarspongebob",
+                "label": "Patrick Star (SpongeBob)",
+                "description": "Patrick Star is a fictional character in the American animated television series SpongeBob SquarePants.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "spongebobsquarepants": {
+                "value": "spongebobsquarepants",
+                "label": "SpongeBob SquarePants",
+                "description": "SpongeBob SquarePants is the titular character of the animated television series of the same name.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "scooby-doo": {
+                "value": "scoobydoo",
+                "label": "Scooby-Doo",
+                "description": "Scooby-Doo is the eponymous character and protagonist of the animated television franchise of the same name.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "batman-kevin-conroys-version": {
+                "value": "batmankevinconroysversion",
+                "label": "Batman (Kevin Conroy's version)",
+                "description": "Batman is a superhero appearing in American comic books published by DC Comics.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "joker-mark-hamills-version": {
+                "value": "jokermarkhamillsversion",
+                "label": "Joker (Mark Hamill’s version)",
+                "description": "The Joker is a supervillain created by Bill Finger, Bob Kane, and Jerry Robinson who first appeared in the debut issue of the comic book Batman (April 25, 1940).",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "pikachu-pokemon": {
+                "value": "pikachupokemon",
+                "label": "Pikachu (Pokémon)",
+                "description": "Pikachu are a species of Pokémon, fictional creatures that appear in an assortment of video games, animated television shows and movies, trading card games, and comic books licensed by The Pokémon Company, a Japanese corporation.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "goofy-disney": {
+                "value": "goofydisney",
+                "label": "Goofy (Disney)",
+                "description": "Goofy is a funny animal cartoon character created in 1932 at Walt Disney Productions.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "eric-cartman-south-park": {
+                "value": "ericcartmansouthpark",
+                "label": "Eric Cartman (South Park)",
+                "description": "Eric Theodore Cartman is a main character in the animated television series South Park.",
+                "language": "English (US)",
+                "gender": "male"
+            }
+        },
+        "celebrity": {
+            "joe-rogan": {
+                "value": "joerogan",
+                "label": "Joe Rogan",
+                "description": "Joe Rogan is an American comedian, podcast host, and mixed martial arts color commentator.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "stephen-colbert": {
+                "value": "stephencolbert",
+                "label": "Stephen Colbert",
+                "description": "Stephen Colbert is an American comedian, writer, producer, political commentator, actor, and television host.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "oprah-winfrey": {
+                "value": "oprahwinfrey",
+                "label": "Oprah Winfrey",
+                "description": "Oprah Winfrey is an American media executive, actress, talk show host, television producer, and philanthropist.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "gordon-ramsay": {
+                "value": "gordonramsay",
+                "label": "Gordon Ramsay",
+                "description": "Gordon Ramsay is a British chef, restaurateur, television personality, and writer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "howard-stern": {
+                "value": "howardstern",
+                "label": "Howard Stern",
+                "description": "Howard Stern is an American radio and television personality, comedian, and author.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "ellen-degeneres": {
+                "value": "ellendegeneres",
+                "label": "Ellen DeGeneres",
+                "description": "Ellen DeGeneres is an American comedian, television host, actress, writer, and producer.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "john-oliver": {
+                "value": "johnoliver",
+                "label": "John Oliver",
+                "description": "John Oliver is a British comedian, writer, producer, political commentator, actor, and television host.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "conan-obrien": {
+                "value": "conanobrien",
+                "label": "Conan O'Brien",
+                "description": "Conan O'Brien is an American television host, comedian, writer, and producer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "jay-leno": {
+                "value": "jayleno",
+                "label": "Jay Leno",
+                "description": "Jay Leno is an American comedian, actor, writer, producer, and television host.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "jimmy-fallon": {
+                "value": "jimmyfallon",
+                "label": "Jimmy Fallon",
+                "description": "Jimmy Fallon is an American comedian, television host, actor, and musician.",
+                "language": "English (US)",
+                "gender": "male"
+            }
+        },
+        "youtuber": {
+            "pewdiepie": {
+                "value": "pewdiepie",
+                "label": "PewDiePie",
+                "description": "PewDiePie is a Swedish YouTuber, comedian, and video game commentator.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "mrbeast": {
+                "value": "mrbeast",
+                "label": "MrBeast",
+                "description": "MrBeast is an American YouTuber, internet personality, businessman, and philanthropist.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "markiplier": {
+                "value": "markiplier",
+                "label": "Markiplier",
+                "description": "Markiplier is an American YouTuber, gamer-commentator, actor, and comedian.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "corpsehusband": {
+                "value": "corpsehusband",
+                "label": "Corpse Husband",
+                "description": "Corpse Husband is an American YouTuber and musician.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "ninjatylerblevins": {
+                "value": "ninjatylerblevins",
+                "label": "Ninja (Tyler Blevins)",
+                "description": "Ninja is an American professional gamer and streamer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "drdisrespect": {
+                "value": "drdisrespect",
+                "label": "Dr Disrespect",
+                "description": "Dr Disrespect is an American video-game streamer.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "pokimane": {
+                "value": "pokimane",
+                "label": "Pokimane",
+                "description": "Pokimane is a Moroccan-Canadian Internet personality.",
+                "language": "English (US)",
+                "gender": "female"
+            },
+            "xqc": {
+                "value": "xqc",
+                "label": "XQC",
+                "description": "XQC is a Canadian Twitch streamer and internet personality.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "jacksepticeye": {
+                "value": "jacksepticeye",
+                "label": "Jacksepticeye",
+                "description": "Jacksepticeye is an Irish YouTuber, best known for his vlogs and comedic Let's Play series.",
+                "language": "English (US)",
+                "gender": "male"
+            },
+            "dreamminecraftyoutuber": {
+                "value": "dreamminecraftyoutuber",
+                "label": "Dream (Minecraft YouTuber)",
+                "description": "Dream is an American YouTuber and Twitch streamer who is known primarily for creating Minecraft content.",
+                "language": "English (US)",
+                "gender": "male"
+            }
+        }
+    },
+    "in": {
+        "leader": {
+            "narendra-modi": {
+                "value": "narendramodi",
+                "label": "Narendra Modi",
+                "description": "Narendra Modi is an Indian politician serving as the 14th and current Prime Minister of India since 2014. He is a member of the Bharatiya Janata Party (BJP) and has been recognized for his leadership and development-focused governance.",
+                "language": "English (US)",
+                "gender": "male"
+            }
+        }
+    },
+    "uk": {
+        "celebrity": {
+            "david-attenborough": {
+                "value": "davidattenborough",
+                "label": "David Attenborough",
+                "description": "Sir David Attenborough is an English broadcaster and natural historian. He is best known for writing and presenting, in conjunction with the BBC Natural History Unit, the nine natural history documentary series forming the Life collection that together constitute a comprehensive survey of animal and plant life on Earth.",
+                "language": "English (UK)",
+                "gender": "male"
+            },
+            "benedict-cumberbatch": {
+                "value": "benedictcumberbatch",
+                "label": "Benedict Cumberbatch",
+                "description": "Benedict Timothy Carlton Cumberbatch is an English actor. Known for his work on screen and stage, he has received various accolades, including a British Academy Television Award, a Primetime Emmy Award, a Laurence Olivier Award, and nominations for two Academy Awards, two British Academy Film Awards, and four Golden Globe Awards.",
+                "language": "English (UK)",
+                "gender": "male"
+            }
+        }
+    },
+    "ru": {
+        "leader": {
+            "vladimir-putin": {
+                "value": "vladimirputin",
+                "label": "Vladimir Putin",
+                "description": "Vladimir Putin is a Russian politician and former intelligence officer who is the current president of Russia.",
+                "language": "English (US)",
+                "gender": "male"
+            }
+        }
+    }
+}
